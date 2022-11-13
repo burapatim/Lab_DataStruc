@@ -8,7 +8,7 @@ for i in range(len(inp)):
             lower.append(inp[i][j])
         elif inp[i][j].isupper():
             upper.append(inp[i][j])
-print("No. of Upper case characters :",len(upper)) 
-print("Unique Upper case characters :","  ".join(sorted(list(set(upper))))) 
-print("No. of Lower case Characters :",len(lower)) 
-print("Unique Lower case characters :","  ".join(sorted(list(set(lower)))))
+print("No. of Upper case characters :", len(upper))
+print("Unique Upper case characters :", "  ".join(sorted(list(set(upper)))))
+print("No. of Lower case Characters :", len(lower))
+print("Unique Lower case characters :", "  ".join(sorted(list(set(lower)))))
